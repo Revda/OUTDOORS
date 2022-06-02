@@ -1,0 +1,46 @@
+body{
+    background-image:  url('Murad_IV.jpg');
+    background-size: cover;
+}
+
+.wrapper{
+    width: 1200px;
+    display: block;
+    margin: 0 auto 0 auto;
+
+}
+
+.navbar-wrapper{
+    display: block;
+    height: 50px;
+    text-align: center;
+}
+
+.navbar {
+padding-top: 20px;
+}
+
+.navbar a, .navbar span {
+    width: 220px;
+    float: left;
+}
+
+.navbar-marker{
+    width: 30px;
+}
+
+.icon{
+    background-image: url('map.png');
+}
+
+.about a {
+
+}
+
+.explore a {
+
+}
+
+.journal a {
+    
+}
