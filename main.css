@@ -21,16 +21,82 @@ padding-top: 20px;
 }
 
 .navbar a, .navbar span {
+
+    color:white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+
     width: 220px;
     float: left;
 }
+
+
+
 
 .navbar-marker{
     width: 30px;
 }
 
+.banner-wrapper{
+    position: relative;
+    height: 300px;
+}
+
+.banner {
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 .icon{
     background-image: url('map.png');
+}
+
+
+.explore-wrapper{
+    color: white;
+    position: relative;
+    height: 150px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.explore-title{
+    font-size: 20px;
+    font-family: 'Lato';
+    clear: left;
+    display: block;
+    padding-bottom:20px;
+}
+
+.explore-text{
+    font-size: 10px;
+    
+}
+
+
+.carousel-wrapper{
+    height: 300px;
+    display: block;
+    float: left;
+}
+
+.carousel-image{
+    display: block;
+    float: left;
+    padding: 0 5px;
+}
+
+.carousel-text{
+    position: relative;
+    bottom: 50px;
+    text-align: center;
 }
 
 .about a {
