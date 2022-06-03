@@ -1,5 +1,5 @@
 body{
-    background-image:  url('Murad_IV.jpg');
+    background-image:  url('3897326\ \(1\).png');
     background-size: cover;
 }
 
@@ -99,14 +99,18 @@ padding-top: 20px;
     text-align: center;
 }
 
-.about a {
-
+.header-search{
+    border: none;
+    background: none;
+    color: white;
 }
 
-.explore a {
-
+.header-search::placeholder{
+    color: white;
 }
-
-.journal a {
-    
+.iicon{
+    color: white;
+}
+input:focus{
+    outline: none;
 }
