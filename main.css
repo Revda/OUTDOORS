@@ -54,7 +54,7 @@ padding-top: 20px;
 }
 
 .icon{
-    background-image: url('map.png');
+    color: white;
 }
 
 
@@ -68,7 +68,7 @@ padding-top: 20px;
 }
 
 .explore-title{
-    font-size: 20px;
+    font-size: 26px;
     font-family: 'Lato';
     clear: left;
     display: block;
@@ -76,7 +76,7 @@ padding-top: 20px;
 }
 
 .explore-text{
-    font-size: 10px;
+    font-size: 18px;
     
 }
 
@@ -85,12 +85,19 @@ padding-top: 20px;
     height: 300px;
     display: block;
     float: left;
+    width: 100%;
 }
 
 .carousel-image{
     display: block;
     float: left;
     padding: 0 5px;
+    width:32%;
+    float: left;
+}
+
+.carousel-image img{
+    width:100%;
 }
 
 .carousel-text{
@@ -108,9 +115,7 @@ padding-top: 20px;
 .header-search::placeholder{
     color: white;
 }
-.iicon{
-    color: white;
-}
+
 input:focus{
     outline: none;
 }
