@@ -6,73 +6,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="main.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100;1,400&family=Roboto:wght@100;400&display=swap"
-        rel="stylesheet">
 </head>
 
 <body>
+    <header class="banner-image">
 
-
-    <div class="wrapper">
-
-        <div class="navbar-wrapper">
-            <nav class="navbar">
-                <a href="about">ABOUT</a>
-                <a href="explore">EXPLORE</a>
-                <span>
-                    <i class="fa-solid fa-location-dot fa-2xl"></i>
-                </span>
-                <a href="journal">JOURNAL</a>
-
-                <div>
-                    <i class="fa fa-search icon"></i>
-                    <input type="text" class="header-search" placeholder="SEARCH">
-                </div>
-
+        <div class="container">
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">EXPLORE</a></li>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </li>
+                    <li><a href="#">JOURNAL</a></li>
+                    <span>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input size="5" type="text" class="header-search" placeholder="SEARCH">
+                    </span>
+                </ul>
             </nav>
+             
         </div>
-
-        <div class="banner-wrapper">
-            <div class="banner">
-
-                <h1>THE GREAT OUTDOORS</h1>
-                <h4>Wander often.Wonder always</h4>
-
+       <div class="title"><h1><strong>THE GREAT OUTDOORS</strong></h1></div>
+            <div class="text"><p>Wander often.Wonder always</p></div>
+            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+    </header>
+    <section class="carousel-wrapper">
+        <div class="carousel">
+            <div class="carousel-image">
+                <img src="norway2.jpg" alt="">
+                <span class="carousel-text2">Næroyfjord</span>
+                <span class="carousel-text">NORWAY</span>
+            </div>
+            <div class="carousel-image">
+                <img src="canyon.jpg" alt="">
+                <span class="carousel-text2">Antelope Canon</span>
+                <span class="carousel-text">UNITED STATES</span>
+            </div>
+            <div class="carousel-image">
+                <img src="grossglockner2.png" alt="">
+                <span class="carousel-text2">Grossglockner</span>
+                <span class="carousel-text">AUSTRIA</span>
             </div>
         </div>
-
-        <div class="explore-wrapper">
-            <span class="explore-title">
-                Explore the World
-            </span>
-            <span class="explore-text">
-                We seek to provide the most authentic content from athletes,adventurers,explorers and travellers around the word. Our long-term mission is to educate, inspire and enable all peoples to experience & protect wilderness.
-            </span>
-        </div>
-
-        <div class="carousel-wrapper">
-            <div class="carousel">
-                <div class="carousel-image">
-                    <img src="norway.jpg" alt="">
-                    <span class="carousel-text">Næroyfjord</span>
-                </div>
-                <div class="carousel-image">
-                    <img src="antelopecanyonunıtedstates.jpg" alt="">
-                    <span class="carousel-text">Antelope Canon</span>
-                </div>
-                <div class="carousel-image">
-                    <img src="grossglockner-4137016_1280.webp" alt="">
-                    <span class="carousel-text">GRONLAND</span>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
+    </section>
+    <section></section>
     <footer></footer>
 
 </body>

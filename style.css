@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner-image{
+    background-image:url(/vestrahorn.jpg) ;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;   
+}
+
+.container {
+    height: 20px;
+    margin: auto;
+    width: 100%;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+li a,i {
+    color: white;
+    text-decoration: none;
+}
+
+input.header-search {
+    outline: none !important;
+    background:none;
+    border: none;
+}
+input::placeholder{
+    color: white;
+
+}
+.title{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%,-250%);
+    color: white;
+}
+
+.text{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%,-150%);
+    color: white;
+}
+.playicon{
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    transform: translate(-50%,-20%);
+    color: white;
+}
+.carousel-wrapper {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.carousel-image {
+    display: flex;
+    padding: 20px 5px;
+    width: 32.33%;
+    position: relative;
+}
+
+.carousel-image img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-text {
+    text-align: center;
+    position: absolute;
+    bottom: 25px;
+    left: 38%;
+    font-size: 18px;
+    color: white;
+}
+.carousel-text2 {
+    text-align: center;
+    position: absolute;
+    bottom: 70px;
+    left: 32%;
+    font-size: 28px;
+    color: white;
+}
