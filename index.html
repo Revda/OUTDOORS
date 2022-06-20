@@ -8,8 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-
-</head>
+    <link rel="stylesheet" href="/button.js" </head>
 
 <body>
     <header class="banner-image">
@@ -29,13 +28,27 @@
                     </span>
                 </ul>
             </nav>
-             
+
         </div>
-       <div class="title"><h1><strong>THE GREAT OUTDOORS</strong></h1></div>
-            <div class="text"><p>Wander often.Wonder always</p></div>
-            <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
+        <div class="header-title">
+            <h1><strong>THE GREAT OUTDOORS</strong></h1>
+        </div>
+        <div class="header-text">
+            <p>Wander often.Wonder always</p>
+        </div>
+        <div class="playicon"><i class="fa-solid fa-circle-play"></i></div>
     </header>
     <section class="carousel-wrapper">
+        <div class="explore-wrapper">
+            <h1 class="explore-title">
+                Explore the World
+            </h1>
+            <span class="explore-text">
+                We seek to provide the most authentic content from athletes,adventurers,explorers and travellers around
+                the word. Our long-term mission is to educate, inspire and enable all peoples to experience & protect
+                wilderness.
+            </span>
+        </div>
         <div class="carousel">
             <div class="carousel-image">
                 <img src="norway2.jpg" alt="">
@@ -53,8 +66,34 @@
                 <span class="carousel-text">AUSTRIA</span>
             </div>
         </div>
+        <span class="see-more"><a id="otggleButton" onclick="toggleText();" href="javascript:void(0);">See
+                More</a></span>
     </section>
-    <section></section>
+    <section class="carousel-wrapper">
+        <div class="explore-wrapper">
+            <h1 class="explore-title">
+                The Journal
+            </h1>
+            <span class="explore-text">
+                Our favorite stories about public lands and opportunities for you to get involved in protecting your
+                outdoor experiences.
+            </span>
+        </div>
+        <div class="gallery">
+            <div class="gallery-image">
+                <img src="naturalpark.jpg" alt="">
+                <span class="gallery-date">May 20,2017</span>
+                <span class="gallery-title">An Unforgeltable</span>
+                <span class="gallery-text"></span>
+            </div>
+            <div class="gallery-image">
+                <img src="goldengate.jpg" alt="">
+                <span class="gallery-date">May 20,2017</span>
+                <span class="gallery-title">Symphonies in Stell</span>
+                <span class="gallery-text"></span>
+            </div>
+        </div>
+    </section>
     <footer></footer>
 
 </body>
