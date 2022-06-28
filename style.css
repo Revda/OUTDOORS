@@ -175,12 +175,21 @@ input::placeholder {
     height: 100vh;  
 }
 .info{
-    font-size: large;
+ color: white;
+}
+.footer-contanier{
+position: absolute;
+}
+.footer-nav{
+    display: flex;
+    bottom: 0;
+    position: relative;
+    width: 50%;
+    left: 28%;
+    padding-top: 47%;
 }
 .footer-navbar{
-    width: 100%;
     display: flex;
-    position: fixed;
-    bottom: 0;
     justify-content: space-around;
+    width: 50%;
 }
